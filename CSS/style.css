@@ -1,0 +1,314 @@
+*{
+    /*border: solid 1px #ff0000;*/
+}
+header{
+    height: 70px;
+}
+header section ul{
+    list-style: none;
+    padding-left: 70px;
+    margin: 0px;
+    margin-top: 25px;
+}
+header section ul li{
+    display: inline;
+    padding-right: 15px;
+}
+header section ul li a{
+    text-decoration: none;
+    color: black;
+}
+header section ul li a:hover{
+    color: #FFFF00;
+}
+header section p{
+    margin: 0px;
+    display: inline-block;
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+}
+header section div{
+    display: inline-block;
+}
+header{
+    background-color: #A3A656;
+}
+@font-face{
+    font-family: 'Inter-Regular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+#enlaces1{
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    float: left;
+}
+#enlaces2{
+    float: right;
+    margin-right: 15px;
+    padding: 12px 0px;
+}
+#enlaces2 div{
+    vertical-align: middle;
+}
+.parrafo-user{
+    padding-right: 45px;
+}
+.parrafo-lang{
+    padding-right: 5px; 
+}
+#contenedor-arrow img{
+    width: 15px;
+    margin-bottom: 5px;
+}
+#contenedor-flag img{
+    margin-bottom: 5px;
+    width: 41px;
+    margin-right: 5px;
+}
+#contenedor-logo{
+    margin-right: 5px;
+}
+header section{
+    display: inline-block;
+}
+#main-spa{
+    height: 575px;
+    background-image: url("../images/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Romanesco-Regular';
+    src: url(../fonts/Romanesco-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-Semibold';
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+#main-spa p{
+    margin: 0px;
+    font-family: 'Romanesco-Regular';
+    font-size: 96px;
+}
+#main-spa h2{
+    font-family: 'Inter-Semibold';
+    font-size: 32px;
+    margin: 0px;
+}
+#main-spa-texto{
+    width: 600px;
+    margin-left: 110px;
+    position: absolute; /*para que no se mueva con el banner del spa*/
+    margin-top: 100px;
+}
+#contenedor-reserva-cita{
+    background-color: #F2F6F6;
+    text-align: center;
+    height: 100px;
+}
+#contenedor-reserva-cita div{
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    margin-top: 24px;
+}
+#contenedor-reserva-cita div input{
+    border-radius: 10px;
+    padding: 18px;
+    border: solid 1px #fff;
+    margin-left: 9px;
+}
+.texto-codigo input{
+    color: #9E9A9A;
+}
+.texto-cita{
+    display: inline-block;
+}
+.texto-cita input{
+    width: 230px;
+}
+.texto-codigo{
+    display: inline-block;
+    margin-left: 32px;
+}
+#masajes{
+    text-align: center;
+    margin-bottom: 60px;
+}
+#masajes article{
+    width: 310px;
+    margin-top: 100px;
+    display: inline-block;
+}
+#masajes article div{
+    text-align: center;
+    background-color: #A3A656;
+    height: 55px;
+    font-family: 'Inter-Semibold';
+    font-size: 32px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    padding-top: 15px;
+}
+#masajes article img{
+    width: 310px;
+}
+#masajes article p{
+    margin: 0px;
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+    text-align: start; 
+}
+#masajes article h3{
+    margin: 0px;
+    font-family: 'Inter-Semibold';
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#masajes article input{
+    background-color: #A3A656;
+    color: white;
+    border-radius: 35px;
+    border: solid 1px #A3A656;
+    padding: 12px;
+    width: 120px;
+    font-family: 'Inter-Semibold';
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 15px;
+    float: right;
+}
+#masajes article input:hover{
+    background-color: #384001;
+}
+.masaje-pies{
+    padding-right: 134px;
+}
+.masaje-relajante{
+    padding-right: 134px;
+}
+#planes{
+    background-color: #F2F6F6;
+    height: 770px;
+    text-align: center;
+}
+#planes h2{
+    font-family: 'Inter-Semibold';
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 50px
+}
+#planes article{
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+}
+#planes article div{
+    border-radius: 100%;
+    background-color: white;
+    width: 255px;
+    height: 255px;
+    border: solid 10px #384001;
+    background-repeat: no-repeat;
+    background-size: 133px;
+    background-position: center;
+    margin-left: 12px;
+}
+#planes article h2{
+    margin: 0px;
+    font-family: 'Inter-Semibold';
+    font-size: 32px;
+}
+#planes article button{
+    background-color: #A3A656;
+    border-radius: 35px;
+    padding: 18px;
+    color: white;
+    border: solid 1px #A3A656;
+    width: 280px;
+    font-family: 'Inter-Semibold';
+    margin-top: 10px;
+}
+#planes article ul{
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    margin-left: 35px;
+    text-align: start; 
+    margin-top: 28px;
+}
+#planes article button:hover{
+    background-color: #384001;
+}
+.plan-gold{
+    background-image: url(../images/gold.png);
+}
+.plan-premium{
+    background-image: url(../images/premium.png);
+}
+.plan-plate{
+    background-image: url(../images/plate.png);
+    background-color: #FFEFDF;
+}
+#gold{
+    margin-left: 134px;
+    float: left;
+}
+#plate{
+    margin-right: 100px;
+    float: right;
+}
+#gold h2{
+    padding: 0px;
+    padding-bottom: 30px;
+}
+#premium h2{
+    padding: 0px;
+    padding-bottom: 30px;
+}
+#plate h2{
+    padding: 0px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: #384001;
+    height: 97px;
+}
+footer div{
+    display: inline-block;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    display: inline-block;
+    padding: 0px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: #A3A656;
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+}
+footer div ul li a:hover{
+    color: #FFFF00;
+}
+#footer1{
+    float: left;
+}
+#footer1 ul{
+    margin: 0px;
+    margin-top: 40px;
+    padding-left: 70px;
+}
+#footer2{
+    float: right;
+}
+#footer2 ul{
+    margin: 0px;
+    margin-top: 25px;
+    padding-right: 10px;
+    padding-left: 0px;
+}
