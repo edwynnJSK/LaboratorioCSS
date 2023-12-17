@@ -101,6 +101,9 @@ header section{
     position: absolute; /*para que no se mueva con el banner del spa*/
     margin-top: 100px;
 }
+#main-spa-texto h2{
+    margin-top: 30px;
+}
 #contenedor-reserva-cita{
     background-color: #F2F6F6;
     text-align: center;
